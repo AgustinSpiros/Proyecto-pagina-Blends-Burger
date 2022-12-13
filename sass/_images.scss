@@ -1,0 +1,33 @@
+@mixin sizes ($width,  $height){
+    width: $width;
+    height: $height;
+}
+
+.burgerzone img{
+    @include sizes(150px, 150px );
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+
+.bebidas img {
+    display: flex;
+    position: relative;
+    margin-left: 25%;
+}
+
+.bebidas2 img {
+    @include sizes(100px, 250px);
+    display: flex;
+    position: relative;
+    margin-left: 25%;
+}
+
+.card-img img{
+    @include sizes(100px, 100px);
+}
+
+.navbar-brand img{ 
+    @include sizes(60px, 70px );
+}
+

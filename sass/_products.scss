@@ -1,0 +1,48 @@
+.card {
+    margin-bottom: 5%;
+    border: none !important;
+    background: none;
+    font-family: $primaryfont;
+    text-transform: capitalize;
+    color: $secondarycolor;
+
+    .title {
+        font-weight: 700;
+        color: $maincolor;
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .price {
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .btn {
+        background-color: $maincolor;
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+        border: solid 1px black;
+        border-radius: 15%;
+        margin-left: 30%;
+    }
+}
+
+.fritas {
+    color: $secondarycolor;
+    font-size: 20px;
+}
+
+.alcohol {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    color: $secondarycolor;
+}
+

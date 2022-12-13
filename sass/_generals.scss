@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: $secondarycolor;
+    background-image: url(../images/fondog1.png);
+    background-size: cover;
+}
+
+.titles_extend{
+    font-family: $secondaryfont;
+    color: $maincolor;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    @extend .titles_extend;
+    text-transform: uppercase;
+    word-spacing: px;
+    font-size: 45px;
+
+}
+
+h2 {
+    @extend .titles_extend;
+    font-weight: 800;
+    word-spacing: px;
+    font-size: 60px;
+}
+
+
+h3 {
+    font-family: $thirdfont;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.navbar-nav {
+    font-family: $thirdfont;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+.deliv {
+    font-family: $primaryfont;
+    color: $secondarycolor;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: $maincolor;
+}
+
+.est_text{
+    text-align: center;
+    color: $secondarycolor;
+    font-family: $secondaryfont;
+}
+
+.info-mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-horarios {
+    color: $secondarycolor;
+    font-family: $thirdfont;
+    text-align: center;
+}
+
+.blendsburger {
+    font-family: $primaryfont;
+    font-size: 60px;
+}
+
